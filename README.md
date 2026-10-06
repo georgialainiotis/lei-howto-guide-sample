@@ -1,16 +1,16 @@
 # How to Verify a Business Customer's Legal Entity Identifier (LEI)
 
-> **About this sample:** Brinwell Payments is a fictional company created for this portfolio sample. The LEI records shown are real public records from the Global LEI Index, captured on 1 and 5 October 2026 and used only as examples. These companies were selected only because their records illustrate common situations, and the author has no connection to them. A lapsed LEI reflects the status of the record, not any judgment of the company.
+> **About this sample:** Brinwell Payments is a fictional company that provides the use case for this guide. The LEI records shown are real public records from the Global LEI Index, captured on 1 and 5 October 2026 and used only as examples. The companies were chosen because their records illustrate situations KYB analysts frequently encounter. The author has no connection to any of them. A lapsed LEI reflects the status of the record, not any judgment about the company.
 
 **Audience:** KYB (Know Your Business) analysts, Brinwell Payments onboarding team
 
-**Last updated:** 5 October 2026
+**Last updated:** 6 October 2026
 
 ## Purpose
 
-This guide shows you how to use the [Global LEI Index](https://search.gleif.org) to look up a business customer's Legal Entity Identifier (LEI), read its record, and spot problems that affect onboarding. An LEI is a 20-character code that identifies a legal entity, such as a company, in financial transactions. It works like a global ID number. Legal entities in any country can obtain an LEI from an accredited LEI issuer.
+This guide shows how to use the [Global LEI Index](https://search.gleif.org) to look up a business customer's Legal Entity Identifier (LEI), read its record, and spot problems that affect onboarding. An LEI is a 20-character code that identifies a legal entity, such as a company, in financial transactions. It works like a global ID number. Legal entities in any country can obtain an LEI from an accredited LEI issuer.
 
-At Brinwell, the LEI matters most for currency hedging. EU rules on derivatives ([EMIR](https://www.esma.europa.eu/data-reporting/emir-reporting)) require each company in a derivative trade to be identified by its LEI, so a customer needs a valid LEI before they can use hedging products.
+At Brinwell, the LEI matters most for currency hedging. EU rules on derivatives ([EMIR](https://www.esma.europa.eu/data-reporting/emir-reporting)) require each company in a derivative trade to be identified by its LEI, so a customer must have a valid LEI before they can use hedging products.
 
 ## Scope
 
@@ -26,8 +26,8 @@ This guide doesn't cover:
 
 - **Funds.** Fund records have additional relationship data and follow a separate process.
 - **UK-based customers.** Since Brexit, UK companies fall under separate UK reporting rules.
-- **Ownership data.** LEI records have **Parents** and **Children** sections. This guide doesn't use them. The Parents section lists parent companies: companies that include this company in their financial accounts. It never names the people who ultimately own or control the company (its beneficial owners). Even when a company is controlled by individuals, the record only shows a code such as NATURAL\_PERSONS. So the LEI record can't replace Brinwell's ownership checks.
-- **Full customer due diligence.** Checking the LEI is one step in onboarding a business customer, not the whole process. Complete the other onboarding checks as usual, following Brinwell's customer due diligence procedure.
+- **Ownership data.** LEI records have **Parents** and **Children** sections. This guide doesn't use them. The Parents section names the parent companies of the company under review, meaning the businesses that include its results in their group accounts. It never names the people who ultimately own or control the company under review (its beneficial owners). Even when individuals control the company, the record shows only a code such as NATURAL\_PERSONS. This means the LEI record can't be used to identify beneficial owners. Follow Brinwell's beneficial ownership procedure for that check.
+- **Full customer due diligence.** This guide covers the LEI check only. Complete the rest of the onboarding checks as usual, following Brinwell's customer due diligence procedure.
 
 ## Key terms
 
@@ -186,7 +186,9 @@ Your team lead will review the case and, where needed, refer it to the complianc
 
 **If an LEI record appears to be incorrect:** report it to your team lead with your evidence. Your team lead can [submit a challenge](https://www.gleif.org/en/lei-data/gleif-data-quality-management/challenge-lei-and-vlei-data) to GLEIF, which passes it to the LEI issuer; issuers aim to resolve challenges within ten business days. Hold hedging until your team lead confirms how to proceed, and recheck the record once the challenge is resolved.
 
-**If you suspect fraud or money laundering:** report your concern promptly through Brinwell's procedure for reporting suspicious activity, and don't continue onboarding until you're told how to proceed. Discuss your concern only with the individuals authorized under that procedure, and never with the customer. Disclosing a suspicion or report to the customer is known as tipping off and is prohibited under EU anti-money laundering law.
+**If you suspect fraud or money laundering:** report your concern promptly through Brinwell's procedure for reporting suspicious activity, and don't continue onboarding until you're told how to proceed. Discuss your concern only with the individuals authorized under that procedure.
+
+> **Important:** Never tell the customer that you suspect fraud or money laundering, or that a suspicious activity report has been made. Disclosing this is known as tipping off and is prohibited under EU anti-money laundering law.
 
 ## Sources
 
