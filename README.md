@@ -46,6 +46,8 @@ This guide doesn't cover:
 
 You don't need an account: the Global LEI Index ([search.gleif.org](https://search.gleif.org)) is free and open to everyone.
 
+  > **Note:** GLEIF's [How to use LEI Search](https://www.gleif.org/en/lei-data/lei-search/about-lei-search/how-to-use-lei-search) page differs from the live site in three respects: it describes the search field as being at the top right of the screen, omits the FIND LEIS drop-down, and labels the results column Registration Status rather than Reg. Status. The steps in this guide follow the live site as verified on 6 October 2026.
+
 You should have the following details from the customer's onboarding file:
 
 - **The company's full legal name.** If the name is normally written in a non-Latin alphabet, such as Greek, have it in both the original alphabet and Latin letters.
