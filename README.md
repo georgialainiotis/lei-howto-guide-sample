@@ -1,10 +1,10 @@
 # How to Verify a Business Customer's Legal Entity Identifier (LEI)
 
-> **About this sample:** This guide is written for Brinwell Payments, a fictional company. The LEI records shown are real public records from the Global LEI Index, captured on 30 October 2026 and used only as examples. The companies were chosen because their records illustrate situations KYB analysts frequently encounter. The author has no connection to any of these companies. A lapsed LEI reflects the status of the record, not any judgment about the company.
+> **About this sample:** This guide is written for Brinwell Payments, a fictional company. The LEI records shown are real public records from the Global LEI Index, captured on 30 October 2026 and used only as examples. The companies were chosen because their records illustrate situations KYB analysts frequently encounter. The author has no connection to any of these companies. This guide is an independent portfolio sample and isn't affiliated with or endorsed by GLEIF, which publishes the Global LEI Index. A lapsed LEI reflects the status of the record, not any judgment about the company.
 
 **Audience:** KYB (Know Your Business) analysts, Brinwell Payments onboarding team
 
-**Last updated:** 2 November 2026
+**Last updated:** 18 November 2026
 
 ## Purpose
 
